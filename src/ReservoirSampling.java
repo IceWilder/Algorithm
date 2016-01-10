@@ -19,11 +19,10 @@ public class ReservoirSampling {
 		// TODO Auto-generated method stub
 		int k=10;
 		Scanner sc = new Scanner(System.in); 
-        
-        int j=0;
-        int N=0;
-        while (j<3) {
-        	System.out.println("请输入数据长度N："); 
+        	int j=0;
+        	int N=0;
+	        while (j<3) {
+        		System.out.println("请输入数据长度N："); 
 			N=sc.nextInt();
 			j++;
 			int[] data=new int[N];
